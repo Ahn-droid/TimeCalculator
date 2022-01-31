@@ -3,6 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Projects/StudioProjects/app/src/main/res/drawable/bar.xml" value="0.378125" />
+        <entry key="..\:/Projects/StudioProjects/app/src/main/res/drawable/off_bar_cur.xml" value="2.592857142857143" />
+        <entry key="..\:/Projects/StudioProjects/app/src/main/res/drawable/off_bg.xml" value="0.378125" />
+        <entry key="..\:/Projects/StudioProjects/app/src/main/res/drawable/off_grad.xml" value="0.378125" />
+        <entry key="..\:/Projects/StudioProjects/app/src/main/res/drawable/on_bg.xml" value="0.378125" />
+        <entry key="..\:/Projects/StudioProjects/app/src/main/res/drawable/on_grad.xml" value="0.378125" />
+        <entry key="..\:/Projects/StudioProjects/app/src/main/res/drawable/option_btn.xml" value="0.378125" />
+        <entry key="..\:/Projects/StudioProjects/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/noc07/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/off_bg.xml" value="0.31025641025641026" />
         <entry key="..\:/Users/noc07/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/off_grad.xml" value="0.31025641025641026" />
         <entry key="..\:/Users/noc07/AndroidStudioProjects/MyApplication/app/src/main/res/drawable/on_bg.xml" value="0.31025641025641026" />
