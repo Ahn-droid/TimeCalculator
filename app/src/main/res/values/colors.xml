@@ -13,4 +13,5 @@
     <color name="warm_light">#F5C6A5</color>
     <color name="cool_vivid">#7C83FD</color>
     <color name="warm_vivid">#D93F72</color>
+    <color name="transparent">#00000000</color>
 </resources>

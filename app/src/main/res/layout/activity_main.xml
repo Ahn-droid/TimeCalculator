@@ -10,6 +10,7 @@
 
 
     <View
+        android:elevation="1dp"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -21,6 +22,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <TextView
+        android:elevation="1dp"
         android:layout_marginTop="25dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -33,6 +35,7 @@
         app:layout_constraintTop_toTopOf="parent"/>
 
     <View
+        android:elevation="1dp"
         android:layout_marginTop="30dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -47,6 +50,7 @@
         android:id="@+id/btns"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="@drawable/btn_bar_bg"
         tools:ignore="MissingConstraints">
 
         <Button
@@ -58,12 +62,13 @@
             style="?android:attr/buttonBarButtonStyle" />
 
         <Button
+            android:id="@+id/calbtn"
+            style="?android:attr/buttonBarButtonStyle"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
             android:layout_weight="1"
-            android:visibility="invisible"
-            style="?android:attr/buttonBarButtonStyle" />
+            android:visibility="invisible" />
 
         <Button
             android:layout_width="70dp"
@@ -227,13 +232,13 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_marginTop="90dp">
         <View
             android:id="@+id/offbg"
-            android:layout_width="100dp"
-            android:layout_height="200dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
             android:layout_marginStart="100dp"
             android:background="@drawable/off_bg"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -243,8 +248,8 @@
 
         <View
             android:id="@+id/onbg"
-            android:layout_width="100dp"
-            android:layout_height="200dp"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
             android:layout_marginEnd="100dp"
             android:background="@drawable/on_bg"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -254,8 +259,8 @@
 
         <View
             android:id="@+id/nsb"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:scaleX="0"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -266,8 +271,8 @@
 
         <View
             android:id="@+id/fsb"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:scaleX="1"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
@@ -276,10 +281,23 @@
             app:layout_constraintTop_toTopOf="parent"
             android:background="@drawable/off_grad"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="START"
+            android:textColor="@color/white"
+            android:textAllCaps="true"
+            android:textSize="30dp"
+            android:fontFamily="sans-serif-black"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"/>
+
         <Button
             android:id="@+id/button"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:background="@android:color/transparent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
